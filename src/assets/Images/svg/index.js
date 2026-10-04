@@ -1,0 +1,5 @@
+export { default as LoginBg3X } from './LoginBg3X'
+export { default as LoginBg@3X } from './LoginBg@3X'
+export { default as RegisterPeoples@3X } from './RegisterPeoples@3X'
+export { default as Loginbg } from './Loginbg'
+export { default as Loginpeople } from './Loginpeople'

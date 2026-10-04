@@ -1,0 +1,37 @@
+.deals {
+  .pagination {
+    margin: 25px 0 50px 0;
+    a {
+      font-weight: 500;
+      color: black;
+    }
+  }
+  .ant-pagination-item-active {
+    background-color: #FE6D04;
+    border: none;
+    a {
+      color: white;
+    }
+  }
+  .ant-pagination-item-active:hover a {
+    color: white;
+  }
+
+  .ant-card {
+    &-cover {
+      background-color: #fff;
+      padding: 1em;
+      border-radius: 0.5em;
+    }
+    &-body {
+      background-color: #fff;
+      padding: 12px;
+      border-radius: 0 0 0.5em 0.5em;
+    }
+    // &-hoverable:hover {
+    //   .ant-card-body {
+    //     background-color: #eee;
+    //   }
+    // }
+  }
+}

@@ -1,0 +1,45 @@
+.admin {
+  height: 100vh;
+  &-header {
+    background-color: #2e3644;
+    height: 70px;
+    padding: 0px 1.5rem;
+  }
+  &-sider {
+    background-color: #fff;
+  }
+  &-content {
+    padding: 8px 38px;
+    &-title {
+      font-size: 18px;
+      font-weight: 500;
+      color: #fafafa;
+    }
+  }
+}
+
+// ant breadcrumb
+.ant-breadcrumb {
+  a {
+    color: #fff;
+  }
+  &-separator {
+    color: #fff;
+  }
+  span {
+    color: #fff;
+  }
+}
+
+.ant-menu-inline .ant-menu-item::after {
+  border-right: none;
+}
+
+.menu-item-container {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #fff;
+}

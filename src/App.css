@@ -1,0 +1,62 @@
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #000;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 7px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #FE6D04;
+  border-radius: 0px;
+}
+
+@-moz-document url-prefix() {
+  .scroller {
+    scrollbar-color:#FE6D04;
+  }
+}
+
+.ant-dropdown-link {
+  color: #fff;
+}
+
+.ant-dropdown-link:hover {
+  color: #fff;
+}
+
+/* .ant-layout-content {
+  padding: 0;
+} */
+
+/* 0 */
+/* 576 small  */
+/* 768 tablet  */
+/* 992 large */
+/* 1200 wide screen */
+/* this should be converted to min-width instead of max-width  */
+
+.inputStyle {
+  width: 3rem !important;
+  height: 3rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 2rem;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}

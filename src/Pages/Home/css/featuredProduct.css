@@ -1,0 +1,61 @@
+.image{
+    max-height: 170px;
+    z-index: 2;
+    }
+    
+    .title{
+        font-size:2em;
+        font-weight: 500;
+        color: #fff;
+        z-index: 2;
+        text-align: center;
+    }
+    
+    .price {
+        font-size:1em;
+        font-weight: 500;
+        color: #fff;
+        z-index: 2;
+    }
+    
+    .tag{
+        color: #fa6331;
+        border-radius: 32px;
+        padding: 5px 20px;
+        font-weight: 500;
+    }
+    
+    .shop-button {
+        background-color: #FE6D04;
+        height: 40px;
+        border: 1px solid #fff;
+        border-radius: 0.4em;
+        z-index: 2;
+    }
+    
+    .shop-button-text{
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    
+    @media (max-width: 640px) {
+        .image{
+            max-height: 6em;
+        }
+        .title {
+          font-size: 0.8em;
+          font-weight: 400;
+        }
+        .price{
+            font-size: 0.6em;
+            font-weight: 400;
+        }
+        .tag{
+            font-size: 0.7em;
+            font-weight: 300;
+        }
+        .shop-button-text{
+            font-size: 10px;
+        }
+      }

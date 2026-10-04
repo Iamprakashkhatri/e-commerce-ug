@@ -1,0 +1,76 @@
+.ant-pagination {
+  margin-top: 2.5rem !important;
+  &-item {
+    border-radius: 50%;
+    &:hover {
+      border-color: #FE6D04;
+    }
+    &-active {
+      background: #FE6D04;
+      border-color: #FE6D04;
+      a {
+        color: #fff;
+        &:hover {
+          color: #fff;
+        }
+      }
+      &:hover {
+        border-color: #FE6D04;
+      }
+    }
+  }
+  &-prev,
+  &-next {
+    border-radius: 50%;
+    .ant-pagination-item-link {
+      border-radius: 50%;
+    }
+  }
+}
+
+.ant-badge-status-dot {
+  width: 9px;
+  height: 9px;
+}
+// for ant design tables
+.ant-table-thead {
+  tr {
+    th {
+      font-weight: 500;
+      background-color: #eee;
+    }
+  }
+}
+.ant-table-tbody {
+  .ant-table-row {
+    &:nth-child(odd) {
+      td {
+        background-color: #f6f6f6;
+      }
+    }
+  }
+}
+
+.ant-form {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2rem;
+  & label {
+    font-weight: 500;
+    font-size: 1rem !important;
+  }
+}
+
+h4.ant-typography {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+}
+
+.ant-upload-list {
+  border: 1px solid #d9d9d9;
+  padding: 1rem 2rem;
+}
+
+.ql-editor {
+  min-height: 250px !important;
+}

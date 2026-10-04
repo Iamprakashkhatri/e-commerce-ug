@@ -1,0 +1,99 @@
+.navbar {
+  &-sociallink {
+    margin-right: 1em;
+    color: #fff;
+  }
+  &-navlist {
+    margin-right: 1em;
+    color: #19A850;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+h5.ant-typography {
+  color: #fff;
+  margin-bottom: 0;
+}
+.search {
+  position: relative;
+  cursor: pointer;
+  margin-right: 1em;
+  &-input {
+    padding: 3.5px 11px;
+    transition: all 450ms ease-in-out;
+  }
+  &-visible {
+    opacity: 1;
+    width: 200px;
+  }
+  &-hide {
+    opacity: 0;
+    width: 0;
+    z-index: -1;
+  }
+  &-button {
+    .ant-input-search-button {
+      background-color: #FE6D04;
+      border: none;
+      padding: 0px 8px;
+      height: 43px;
+      width: 45px;
+    }
+    .ant-input {
+      color: #FE6D04;
+      background: #f1f1f1;
+      border: unset;
+      height: 43px;
+      padding: 0.5rem 1rem;
+      &:focus{
+        box-shadow: unset;
+      }
+    }
+  }
+}
+
+
+
+.ant-input-search-icon {
+  font-size: 1.2em;
+  color: #5a5a5a;
+  padding: 0 5px 0 0 !important;
+}
+
+.mobile {
+  .ant-drawer-body {
+    background-color: #FE6D04;
+  }
+
+  .ant-drawer-close {
+    color: #fff;
+  }
+  .navbar-navlist {
+    color: #fff;
+    font-weight: 500;
+    font-size: '15px';
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-navlist {
+    margin: 0.4em 0;
+  }
+  .search-input {
+    right: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navtop {
+    justify-content: space-around;
+  }
+}
+
+.social-links {
+  color: #fff;
+  &:hover {
+    color: #fff;
+  }
+}

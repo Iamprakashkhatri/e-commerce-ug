@@ -1,0 +1,35 @@
+.chatTextBoxContainer {
+    position: absolute;
+    bottom: 15px;
+    left: 315px;
+    box-sizing: border-box;
+    overflow: auto;
+    width: calc(100% - 300px - 50px);
+  }
+
+.chatTextBox {
+    width: calc(100% - 25px);
+  }
+
+  .form-chat {
+    width: 99%;
+    bottom: 0;
+    position: sticky;
+    height: 60px;
+    background: #fff;
+    padding-top: 1rem;
+    &__input {
+      width: 100%;
+      border: 1px solid #d9d9d9;
+      height: 40px;
+    }
+    &__btn {
+      width: 100px;
+      border: 1px solid rgb(217, 217, 217);
+      position: absolute;
+      right: 0;
+      height: 41px;
+      top: 15px;
+      cursor: pointer;
+    }
+  }

@@ -1,0 +1,52 @@
+.card {
+  text-align: center;
+  border-radius: 0.5em;
+}
+
+.img {
+  height: 10rem;
+  object-fit: contain;
+}
+.name {
+  font-size: 17px;
+  font-weight: 700;
+}
+.real-price {
+  color: red;
+  font-size: 13px;
+  font-weight: 500;
+}
+.final-price {
+  color: #FE6D04;
+  font-size: 15px;
+  font-weight: 500;
+}
+.discount-tag {
+  border-radius: 15px;
+  background-color: #FE6D04;
+}
+.discount-text {
+  font-size: 13px;
+  font-weight: 400;
+}
+@media (max-width: 640px) {
+  .img {
+    height: 5rem;
+  }
+  .name {
+    font-size: 9px;
+    font-weight: 300;
+  }
+  .real-price {
+    font-size: 8px;
+    font-weight: 300;
+  }
+  .final-price {
+    font-size: 9px;
+    font-weight: 300;
+  }
+  .discount-text {
+    font-size: 10px;
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,53 @@
+.footer-text {
+  color: white;
+  transition: all 0.25s ease-in-out;
+  &:hover {
+    color: #FE6D04;
+    padding-left: 7px;
+  }
+}
+
+.footerparent {
+  background-color: #19A850;
+  border-top: 1px solid #eee;
+  padding: 3rem 0;
+}
+
+.footer-title {
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 15px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 1px;
+    bottom: 0;
+    border-bottom: 4px solid #FE6D04;
+  }
+}
+
+.paymentlogo {
+  width: 25px;
+  height: 25px;
+  color: #fff;
+}
+
+.footer-divider {
+  border: 1px solid #cecece;
+}
+
+.social-links {
+  color: #fff;
+}
+.social-links:hover {
+  color: #FE6D04;
+}
+
+.footersubscription {
+  .ant-form-item-has-error {
+    background: #ffd0d0;
+    border-radius: 0.2rem;
+  }
+}

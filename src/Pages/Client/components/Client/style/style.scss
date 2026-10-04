@@ -1,0 +1,26 @@
+.rowstyle {
+  padding: 8px 24px;
+  margin: 8px 0 8px 24px;
+  background: #fff;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .mobilescroll {
+    overflow-x: scroll;
+  }
+  .navformobile {
+    display: flex;
+    margin-bottom: 1.4rem;
+    width: 700px;
+  }
+  .rowstyle {
+    margin: 1rem 0 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .mobiletab {
+    flex-direction: column;
+  }
+}

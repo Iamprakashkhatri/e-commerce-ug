@@ -1,0 +1,64 @@
+.contact-input {
+  height: 30px;
+  border: unset;
+  background: #eee;
+}
+.contact-input::placeholder {
+  color: #8c8c8c;
+}
+.ant-pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination {
+  margin: 25px 0 50px 0;
+  a {
+    font-weight: 500;
+    color: #8c8c8c;
+  }
+  .ant-pagination-item-active a {
+    color: #FE6D04;
+    font-weight: 500;
+  }
+  li {
+    border: none;
+  }
+  a:hover {
+    color: #FE6D04;
+    font-weight: 500;
+  }
+}
+.searchpage-divider {
+  height: 3px;
+  background-color: #d9d9d9;
+}
+.ant-card {
+  &-cover {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 0.5em;
+  }
+  &-body {
+    background-color: #fff;
+    padding: 12px;
+    border-radius: 0 0 0.5em 0.5em;
+  }
+}
+.pagination {
+  margin: 25px 0 50px 0;
+  a {
+    font-weight: 500;
+    color: black;
+  }
+}
+.ant-pagination-item-active {
+  background-color: #FE6D04;
+  border: none;
+  a {
+    color: white;
+  }
+}
+.ant-pagination-item-active:hover a {
+  color: white;
+}
